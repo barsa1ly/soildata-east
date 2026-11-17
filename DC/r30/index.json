@@ -1,0 +1,1 @@
+{"crs":"EPSG:5070","res":30,"tile":512,"x0":1597440,"y0":1950720,"rows":3,"cols":3,"have":["0/1","1/0","1/1","1/2","2/1"],"format":"zlib-compressed uint16 little-endian, row-major from the north-west corner; value = index into ../mukeys.json (0 = no map unit)","resample":"mode"}

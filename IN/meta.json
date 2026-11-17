@@ -1,0 +1,55 @@
+{
+ "state": "IN",
+ "source": {
+  "name": "USDA-NRCS Soil Survey Geographic Database (SSURGO), SQLite SSURGO (GeoPackage) state download",
+  "file": "SQLite_SSURGO_IN.7z",
+  "url": "https://nrcs.app.box.com/v/soils",
+  "path": "SSURGO/SQLite SSURGO (Geopackages)/States",
+  "tables": "SQLite_SSURGO_IN.gpkg",
+  "raster": "muraster_10m_IN.tif"
+ },
+ "fy": "FY2027",
+ "published": "2026-10-01",
+ "surveyAreas": 92,
+ "saverest": {
+  "min": "2026-08-28 11:32:24",
+  "max": "2026-09-18 13:16:24"
+ },
+ "counts": {
+  "mapunits": 7245,
+  "mapunitsWithRows": 7245,
+  "components": 20691,
+  "horizons": 71374,
+  "hzRows": 71374
+ },
+ "nullColumns": [
+  "chorizon.esp_r",
+  "chorizon.fragvoltot_r"
+ ],
+ "raster": {
+  "path": "r30/index.json",
+  "resample": "mode",
+  "tiles": 459,
+  "tileBytes": 25043506,
+  "cells": 104161851,
+  "pixels10m": 937248014,
+  "sameAs10m": 855532164,
+  "mapunitsIn10m": 7245,
+  "mapunitsInGrid": 7245,
+  "grid": {
+   "crs": "EPSG:5070",
+   "res": 30,
+   "tile": 512,
+   "x0": 675840,
+   "y0": 2150400,
+   "rows": 32,
+   "cols": 19
+  }
+ },
+ "shards": {
+  "path": "mu/<mukey % 1024>.json",
+  "count": 1024
+ },
+ "built": "2026-11-16T22:56:59Z",
+ "tool": "tools/build_ssurgo.py"
+}
